@@ -82,7 +82,7 @@ async function main() {
 
   console.log(`✨ Day ${day} solved! ✨\n`);
   console.log(`  Part 1: ${solution.part1}`);
-  console.log(`  Part 2: ${solution.part1}`);
+  console.log(`  Part 2: ${solution.part2}`);
   console.log();
   console.log(`Finished in ${runningTimeNs} ns`);
 }
