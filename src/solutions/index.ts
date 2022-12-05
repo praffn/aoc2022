@@ -3,6 +3,7 @@ import { day01 } from "./day01";
 import { day02 } from "./day02";
 import { day03 } from "./day03";
 import { day04 } from "./day04";
+import { day05 } from "./day05";
 
 export function getSolverForDay(day: number): Solver {
   switch (day) {
@@ -14,6 +15,8 @@ export function getSolverForDay(day: number): Solver {
       return day03;
     case 4:
       return day04;
+    case 5:
+      return day05;
     default:
       throw new Error(`Day ${day} has not been implemented yet`);
   }
